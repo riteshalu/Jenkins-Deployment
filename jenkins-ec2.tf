@@ -21,5 +21,8 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo yum install git -y
 sudo amazon-linux-extras install ansible2 -y
+sudo yum install python-pip -y
+sudo pip install ansible
+sudo pip install boto3
 EOF
 }
