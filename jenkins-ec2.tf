@@ -20,5 +20,6 @@ sudo yum install jenkins -y
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo yum install git -y
+sudo amazon-linux-extras install ansible2 -y
 EOF
 }
