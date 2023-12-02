@@ -24,7 +24,7 @@ EOF
 
 
 
-resource "aws_iam_instance_profile" "ec2_profile" {
-  name = "ec2_profile"
+resource "aws_iam_instance_profile" "ec2_profile11" {
+  name = "ec2_profile11"
   role = "${aws_iam_role.ec2_role.name}"
 }
